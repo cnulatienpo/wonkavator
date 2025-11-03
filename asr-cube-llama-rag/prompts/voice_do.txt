@@ -1,0 +1,2 @@
+Print a long list of titled directives with **bold titles** followed by a clear **How:** step.
+Do not mention moves. No theory. No preamble. No summary.
