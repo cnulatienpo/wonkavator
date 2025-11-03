@@ -1,0 +1,47 @@
+{
+  "version": "0.1",
+  "board_id": "board_demo_001",
+  "name": "Demo Cube",
+  "tiles": [
+    {
+      "id": "tile_concept_1",
+      "board_id": "board_demo_001",
+      "type": "concept",
+      "label": "Desert Girl",
+      "facet": {
+        "statement": "A girl walks three days toward the last satellite."
+      },
+      "status": "in_progress",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "modifiers_applied": [],
+      "relationships": [],
+      "assets": [],
+      "created_at": "2025-11-01T00:00:00Z",
+      "updated_at": "2025-11-01T00:00:00Z"
+    },
+    {
+      "id": "tile_mood_1",
+      "board_id": "board_demo_001",
+      "type": "mood",
+      "label": "Isolation",
+      "facet": {
+        "target_mood": "isolation",
+        "intensity": 4
+      },
+      "status": "in_progress",
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "modifiers_applied": [],
+      "relationships": [],
+      "assets": [],
+      "created_at": "2025-11-01T00:00:00Z",
+      "updated_at": "2025-11-01T00:00:00Z"
+    }
+  ],
+  "events": []
+}

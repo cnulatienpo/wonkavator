@@ -1,0 +1,31 @@
+{
+  "cards": [
+    {
+      "id": "card_mole_fried_rice",
+      "tone": "do",
+      "title": "Mole Fried Rice",
+      "text": "Hot pan → oil → rice → 1–2 tbsp mole + splash water → chopped tamal → finish with salsa.",
+      "effort": "10m"
+    },
+    {
+      "id": "card_minimal_plate",
+      "tone": "do",
+      "title": "Minimalism Cures Boredom",
+      "text": "Warm 1 tamal; one stripe of hot mole; one spoon of beans. Stop.",
+      "effort": "5m"
+    },
+    {
+      "id": "card_question_crown",
+      "tone": "ask",
+      "title": "Crown One",
+      "text": "Which deserves to be the star—rice, beans, tamal, mole, salsa, or cake? Crown it.",
+      "effort": "1m"
+    },
+    {
+      "id": "card_whatif_cubes",
+      "tone": "whatif",
+      "title": "Everything Cubed",
+      "text": "What if everything on the plate came in cubes—even the sauce?"
+    }
+  ]
+}

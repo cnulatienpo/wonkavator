@@ -1,0 +1,70 @@
+{
+  "version": "0.1",
+  "deliverables": [
+    {
+      "id": "poster_timeline",
+      "name": "Timeline Wall Poster",
+      "inputs": [
+        "photos"
+      ],
+      "outputs": [
+        "pdf"
+      ],
+      "steps": [
+        "layout_grid",
+        "label_months",
+        "export_pdf"
+      ]
+    },
+    {
+      "id": "supercut_60s",
+      "name": "60s Supercut",
+      "inputs": [
+        "videos",
+        "audio"
+      ],
+      "outputs": [
+        "mp4"
+      ],
+      "steps": [
+        "chapter_detect",
+        "select_best",
+        "assemble",
+        "add_slate"
+      ]
+    },
+    {
+      "id": "gamepack_texture",
+      "name": "Game Texture Pack",
+      "inputs": [
+        "texture_raster"
+      ],
+      "outputs": [
+        "zip"
+      ],
+      "steps": [
+        "make_seamless",
+        "derive_pbr",
+        "glb_preview",
+        "zip_pack"
+      ]
+    },
+    {
+      "id": "cue_library",
+      "name": "Cue Library",
+      "inputs": [
+        "audio"
+      ],
+      "outputs": [
+        "wav",
+        "json"
+      ],
+      "steps": [
+        "split_cues",
+        "normalize",
+        "name_cues",
+        "export_manifest"
+      ]
+    }
+  ]
+}

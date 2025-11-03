@@ -1,0 +1,32 @@
+{
+  "buttons": {
+    "do": "You could do this:",
+    "ask": "I wonder,",
+    "whatif": "What if"
+  },
+  "shake": {
+    "nudge": "Nudge",
+    "rattle": "Rattle",
+    "storm": "Storm",
+    "reroll": "Re‑roll 🎲"
+  },
+  "actions": {
+    "apply": "Apply",
+    "branch": "Try as Branch",
+    "star": "★ Star",
+    "lock": "Lock",
+    "unlock": "Unlock"
+  },
+  "hud": {
+    "search": "Search…",
+    "save": "Save",
+    "load": "Load",
+    "seed": "Seed",
+    "spice": "Spice"
+  },
+  "tooltips": {
+    "do": "Bossy, specific steps.",
+    "ask": "A question that leads to one action.",
+    "whatif": "A portal—no instructions."
+  }
+}

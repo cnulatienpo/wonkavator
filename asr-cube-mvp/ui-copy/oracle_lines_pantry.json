@@ -1,0 +1,86 @@
+{
+  "voice_buttons": [
+    "You could do this:",
+    "I wonder,",
+    "What if"
+  ],
+  "you_could_do_this": [
+    {
+      "title": "Minimalism Cures Boredom",
+      "how": "Warm 1 tamal. Paint one stripe of hot mole. Drag the tamal through. One spoon of beans. Stop."
+    },
+    {
+      "title": "Crisp & Silk",
+      "how": "Blend beans to latte-silk; salt & strain. Pan-crisp tamal planks. Set crisp on silk; add 5 tiny salsa dots."
+    },
+    {
+      "title": "Rice Takes the Throne",
+      "how": "Hot pan → oil → rice → 1–2 tbsp mole + splash water → chopped tamal → finish with salsa."
+    },
+    {
+      "title": "Three Faces of Salsa",
+      "how": "Split salsa: plain / whisked with a little mole / folded into mashed beans. Plate as a tiny flight."
+    },
+    {
+      "title": "Caramelized Tamal Bites",
+      "how": "Cube tamales; splash citrus or sangria; sear till browned. Pile over rice; thread a thin mole ribbon."
+    },
+    {
+      "title": "Crouton Rain",
+      "how": "Dice tamales; fry to crunchy croutons. Rain over beans-and-rice; micro-drizzle mole."
+    },
+    {
+      "title": "Inside-Out Patty",
+      "how": "Mash a tamal with a spoon of beans; patty; pan-crisp. Serve on rice; salsa as sauce; mole to finish."
+    },
+    {
+      "title": "Two-Line Plate",
+      "how": "Half beans, half rice, one warm tamal. Draw two clean lines—one mole, one salsa. Eat slow."
+    },
+    {
+      "title": "Salsa Steam",
+      "how": "Dry-sear tamal planks; kill heat; spoon salsa + water; cover 30s. Serve with a brush of mole."
+    },
+    {
+      "title": "Mole Swirl Dip",
+      "how": "Warm mole & salsa. Shallow dish: pour mole, spiral salsa. Dip crisp tamal chunks."
+    },
+    {
+      "title": "Rice Balls, Hidden Heart",
+      "how": "Mix rice + mashed beans; hide a tamal cube; pan-sear to a crust. Dip in 50/50 mole–salsa."
+    },
+    {
+      "title": "Sweet Heat Brush",
+      "how": "Reduce sangria 2–3 min; brush warm cake slice; add a pinpoint of mole."
+    },
+    {
+      "title": "Sangria Snow & Cake Croutons",
+      "how": "Freeze sangria shallow; scrape to granita. Toast cake cubes. Bowl; touch three cubes with tiny mole dots."
+    },
+    {
+      "title": "Bean Cream Affogato",
+      "how": "Blend warm beans silky; lightly sweeten with cake-crumb syrup; chill 5 min. Pour hot, thinned mole over a small scoop."
+    },
+    {
+      "title": "One-Minute Reset",
+      "how": "Dry-pan crisp tamal edges; kill heat; splash a teaspoon of sangria; pinch salt; serve."
+    }
+  ],
+  "i_wonder": [
+    "which deserves to be the star tonight—rice, beans, tamal, mole, salsa, or cake? Crown it.",
+    "do you want crunch or silk to be loud? Quiet the others.",
+    "what’s the tiniest plate that still feels complete? Make exactly that.",
+    "who besides you is eating? Change one choice for them—spice, portion, or plating.",
+    "could this be only two colors? Pick the two and stay inside them.",
+    "which ingredient are you secretly tired of? Leave it out for one plate."
+  ],
+  "what_if": [
+    "the sauce was the main course and the solids were garnish?",
+    "sweet arrived first and heat arrived last?",
+    "everything on the plate came in cubes—even the sauce?",
+    "you cooked nothing—only warmed and arranged?",
+    "you used your “cheapest” tool to make the fanciest bite?",
+    "you served it like street food you could eat walking?",
+    "this plate had a rule you could not break?"
+  ]
+}

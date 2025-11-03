@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EventLogRow",
+  "type": "object",
+  "required": [
+    "id",
+    "tile_id",
+    "kind",
+    "timestamp"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "tile_id": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "tile_created",
+        "tile_updated",
+        "tile_deleted",
+        "move_previewed",
+        "move_applied",
+        "move_undone",
+        "shake_generated",
+        "shake_applied",
+        "branch_created",
+        "exported"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  }
+}

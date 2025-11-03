@@ -1,0 +1,165 @@
+{
+  "version": "0.1",
+  "types": [
+    {
+      "kind": "image",
+      "detect": [
+        "*.png",
+        "*.jpg",
+        "*.jpeg",
+        "*.webp",
+        "*.tiff"
+      ],
+      "preview": [
+        "thumbnail"
+      ],
+      "ops": [
+        "palette_extract",
+        "montage",
+        "keyframes"
+      ],
+      "exporters": [
+        "png",
+        "pdf_contact_sheet"
+      ]
+    },
+    {
+      "kind": "audio",
+      "detect": [
+        "*.wav",
+        "*.flac",
+        "*.mp3"
+      ],
+      "preview": [
+        "waveform"
+      ],
+      "ops": [
+        "split_cues",
+        "normalize",
+        "loop"
+      ],
+      "exporters": [
+        "wav"
+      ]
+    },
+    {
+      "kind": "video",
+      "detect": [
+        "*.mp4",
+        "*.mov",
+        "*.webm"
+      ],
+      "preview": [
+        "posterframe",
+        "keyframes"
+      ],
+      "ops": [
+        "scene_detect",
+        "extract_audio",
+        "grid"
+      ],
+      "exporters": [
+        "mp4",
+        "edl"
+      ]
+    },
+    {
+      "kind": "model3d",
+      "detect": [
+        "*.glb",
+        "*.gltf",
+        "*.obj",
+        "*.fbx"
+      ],
+      "preview": [
+        "webgl_thumb"
+      ],
+      "ops": [
+        "decimate",
+        "derive_sprites"
+      ],
+      "exporters": [
+        "glb"
+      ]
+    },
+    {
+      "kind": "document",
+      "detect": [
+        "*.pdf",
+        "*.md",
+        "*.txt"
+      ],
+      "preview": [
+        "firstpage",
+        "snippet"
+      ],
+      "ops": [
+        "split_pages",
+        "concat"
+      ],
+      "exporters": [
+        "pdf"
+      ]
+    },
+    {
+      "kind": "dicom_echo",
+      "detect": [
+        "*.dcm"
+      ],
+      "preview": [
+        "cine_loop"
+      ],
+      "ops": [
+        "extract_cycle",
+        "optical_flow",
+        "edge_trace",
+        "audio_envelope"
+      ],
+      "exporters": [
+        "mp4_loop",
+        "svg_edges",
+        "wav_pulse"
+      ]
+    },
+    {
+      "kind": "texture_raster",
+      "detect": [
+        "*.png",
+        "*.jpg",
+        "*.tiff"
+      ],
+      "preview": [
+        "tile_preview"
+      ],
+      "ops": [
+        "make_seamless",
+        "derive_pbr",
+        "variants",
+        "readability_rig"
+      ],
+      "exporters": [
+        "pbr_pack",
+        "glb_testscene",
+        "sprite_atlas"
+      ]
+    },
+    {
+      "kind": "link",
+      "detect": [
+        "http*"
+      ],
+      "preview": [
+        "og_card"
+      ],
+      "ops": [
+        "transcript",
+        "chapters",
+        "palette"
+      ],
+      "exporters": [
+        "quote_cards",
+        "edl"
+      ]
+    }
+  ]
+}

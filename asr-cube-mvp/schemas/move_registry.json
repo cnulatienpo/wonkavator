@@ -1,0 +1,190 @@
+{
+  "version": "0.1",
+  "directions": [
+    "sideways",
+    "forward",
+    "down",
+    "up",
+    "reverse",
+    "still",
+    "transcend_flag"
+  ],
+  "intensity": [
+    1,
+    2,
+    3
+  ],
+  "facets": {
+    "concept": {
+      "sideways": [
+        {
+          "modifier": "swap_terms"
+        },
+        {
+          "modifier": "fragment_outline"
+        },
+        {
+          "modifier": "loop_motif"
+        }
+      ],
+      "forward": [
+        {
+          "modifier": "stretch_n",
+          "params": {
+            "steps": 3
+          }
+        },
+        {
+          "modifier": "escalate"
+        }
+      ],
+      "down": [
+        {
+          "modifier": "distill_one_sentence"
+        },
+        {
+          "modifier": "strip_qualifiers"
+        }
+      ],
+      "up": [
+        {
+          "modifier": "add_parallel_images",
+          "params": {
+            "count": 3
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "modifier": "invert_premise"
+        },
+        {
+          "modifier": "switch_roles"
+        }
+      ],
+      "still": [
+        {
+          "modifier": "freeze_and_observe"
+        }
+      ]
+    },
+    "mood": {
+      "down": [
+        {
+          "modifier": "reduce_palette_to_two"
+        },
+        {
+          "modifier": "silhouette_focus"
+        }
+      ],
+      "up": [
+        {
+          "modifier": "layer_textures"
+        },
+        {
+          "modifier": "chorus_repetition"
+        }
+      ],
+      "reverse": [
+        {
+          "modifier": "invert_valence"
+        }
+      ],
+      "sideways": [
+        {
+          "modifier": "reweight_element"
+        }
+      ],
+      "still": [
+        {
+          "modifier": "hold_unchanged"
+        }
+      ]
+    },
+    "image": {
+      "sideways": [
+        {
+          "modifier": "recompose_grid"
+        },
+        {
+          "modifier": "repeat_motif"
+        }
+      ],
+      "down": [
+        {
+          "modifier": "desaturate_to_bw"
+        },
+        {
+          "modifier": "single_stroke"
+        }
+      ],
+      "up": [
+        {
+          "modifier": "overlay_layers",
+          "params": {
+            "count": 3
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "modifier": "invert_colors"
+        }
+      ],
+      "forward": [
+        {
+          "modifier": "time_sequence",
+          "params": {
+            "frames": 12
+          }
+        }
+      ],
+      "still": [
+        {
+          "modifier": "freeze"
+        }
+      ]
+    },
+    "audio": {
+      "sideways": [
+        {
+          "modifier": "loop_grain"
+        },
+        {
+          "modifier": "offset_downbeat"
+        }
+      ],
+      "forward": [
+        {
+          "modifier": "accelerando"
+        },
+        {
+          "modifier": "density_ramp"
+        }
+      ],
+      "down": [
+        {
+          "modifier": "solo_timbre"
+        }
+      ],
+      "up": [
+        {
+          "modifier": "add_voices",
+          "params": {
+            "n": 2
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "modifier": "invert_mode"
+        }
+      ],
+      "still": [
+        {
+          "modifier": "sustain"
+        }
+      ]
+    }
+  }
+}
