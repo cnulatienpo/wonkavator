@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SuggestionEvent",
+  "type": "object",
+  "required": [
+    "suggestion_id",
+    "user_id",
+    "tile_type",
+    "move",
+    "intensity",
+    "spice",
+    "time_budget_sec",
+    "shown_at",
+    "applied",
+    "starred",
+    "survived_to_export"
+  ],
+  "properties": {
+    "suggestion_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "tile_type": {
+      "type": "string"
+    },
+    "move": {
+      "type": "string",
+      "enum": [
+        "sideways",
+        "forward",
+        "down",
+        "up",
+        "reverse",
+        "still"
+      ]
+    },
+    "intensity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "spice": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "time_budget_sec": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "shown_at": {
+      "type": "string"
+    },
+    "applied": {
+      "type": "boolean"
+    },
+    "undone_within_sec": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "starred": {
+      "type": "boolean"
+    },
+    "survived_to_export": {
+      "type": "boolean"
+    },
+    "time_to_apply_sec": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  }
+}
